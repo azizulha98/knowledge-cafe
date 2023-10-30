@@ -1,9 +1,10 @@
 import React from 'react';
-
+import navImg from '../../assets/images/profile.png'
 const Header = () => {
   return (
-    <div>
-      <h2 className='text-3xl font-bold text-center my-3 uppercase'>Knowledge Cafe</h2>
+    <div className='flex justify-between items-center max-w-screen-xl mx-auto my-5 border-b-2'>
+      <h2 className='text-3xl font-bold uppercase'>Knowledge Cafe</h2>
+      <img src={navImg} alt="" />
     </div>
   );
 };
